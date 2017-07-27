@@ -32,13 +32,40 @@
 }
 
 .column.large {
+  border: 1px solid black;
   width: 630px;
 }
 
 .column.medium {
+  border: 1px solid black;
   width: 300px
 }
 
 .column.small {
+  border: 1px solid black;
   width: 240px;
+}
+
+.article {
+  border: 1px solid black;
+}
+
+.article.main {
+  border: 1px solid black;
+}
+
+.pop-piece.earth {
+  border: 1px solid black;
+}
+
+.pop-piece.camera {
+  border: 1px solid black;
+}
+
+.pop-piece.cats {
+  border: 1px solid black;
+}
+
+.news.bites {
+  border: 1px solid black;
 }

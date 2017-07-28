@@ -31,39 +31,71 @@
   margin-left: 10px;
 }
 
-.column.large {
+.main-body {
+  display: flex;
   border: 1px solid black;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+}
+
+.column {
+  border: 1px solid black;
+  display: flex;
+  margin-right: 32px;
+  flex-flow: column wrap;
+}
+
+.column.large {
   width: 630px;
 }
 
 .column.medium {
-  border: 1px solid black;
   width: 300px
 }
 
 .column.small {
-  border: 1px solid black;
   width: 240px;
 }
 
 .article {
   border: 1px solid black;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 .article.main {
   border: 1px solid black;
 }
 
-.pop-piece.earth {
+.article.main span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  width: 630px;
+}
+
+.pop-piece {
   border: 1px solid black;
+  width: 100%;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.pop-piece.earth {
+
 }
 
 .pop-piece.camera {
-  border: 1px solid black;
+
 }
 
 .pop-piece.cats {
-  border: 1px solid black;
+
 }
 
 .news.bites {
